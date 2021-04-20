@@ -99,6 +99,10 @@ main .container{
     margin: 10px 0;
 }
 
+.todo-list .list li{
+   line-height: 3;
+}
+
 .todo-list .list .done::before{
     content: '\2714';
     color: green;
@@ -106,6 +110,16 @@ main .container{
     font-size: 15px;
     border-radius: 50%;
     padding: 3px 5px;
+    margin-right: 10px;
+}
+
+.todo-list .list .failed::before{
+    content: '\2717';
+    color: red;
+    border: 2px solid red;
+    padding: 3px 7px;
+    border-radius: 50%;
+    font-size: 15px;
     margin-right: 10px;
 }
 
@@ -121,6 +135,21 @@ main .container{
 .plate.blue{
     background-color: lightskyblue;
     border: 1px solid lightskyblue;
+}
+
+.plate.violet{
+    background-color: #6718ab;
+    border: 1px solid #6718ab;
+}
+
+.plate.green{
+    background-color: green;
+    border: 1px solid green;
+}
+
+.plate.orange{
+    background-color: orange;
+    border: 1px solid orange;
 }
 
 
