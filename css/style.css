@@ -1,0 +1,27 @@
+/* formattazione */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+header{
+    height: 100px;
+    line-height: 100px;
+}
+
+#logo{
+    height: 80px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+#name-logo{
+    font-size: 50px;
+    vertical-align: middle;
+    font-weight: 700;
+}
