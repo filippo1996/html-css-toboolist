@@ -64,6 +64,7 @@ main .container{
     width: 70%;
     margin: auto;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .container .filter{
@@ -150,6 +151,11 @@ main .container{
 .plate.orange{
     background-color: orange;
     border: 1px solid orange;
+}
+
+.plate.fuxia{
+    background-color: fuchsia;
+    border: 1px solid fuchsia;
 }
 
 
