@@ -74,23 +74,33 @@ main .container{
     margin-right: 20px;
 }
 
-.container .list{
+.container .todo-list{
     padding: 20px 0 20px 80px ;
 }
 
-.list ul{
+.todo-list ul{
     list-style: none;
     margin-bottom: 30px;
 }
 
-.list li::before{
+.todo-list li::before{
     content: '\25BE';
     margin-right: 10px;
 }
 
-.list li{
+.todo-list li{
     font-size: 30px;
     font-weight: 700;
+}
+
+.todo-list .list{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.todo-list .list::before{
+    content: 'hello';
 }
 
 
