@@ -11,6 +11,31 @@ body{
     background-color: lightgray;
 }
 
+button{
+    cursor: pointer;
+}
+
+.button-xl{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: white;
+    color: lightgray;
+}
+
+.active{
+    background-color: lightskyblue;
+    border: 1px solid lightskyblue;
+    color: white;
+}
+
+hr{
+    border: 1px solid lightgray;
+}
+
 /* header */
 
 header{
@@ -39,4 +64,15 @@ main .container{
     height: 200px; /* da cancellare*/
     width: 70%;
     margin: auto;
+    border-radius: 10px;
 }
+
+.container .filter{
+    padding: 30px 0 15px 80px;
+}
+
+.filter button{
+    margin-right: 20px;
+}
+
+
