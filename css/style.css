@@ -102,24 +102,27 @@ main .container{
    line-height: 3;
 }
 
-.todo-list .list .done::before{
-    content: '\2714';
-    color: green;
-    border: 2px solid green;
-    font-size: 15px;
+.list .circle::before{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
-    padding: 3px 5px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 15px;
     margin-right: 10px;
 }
 
-.todo-list .list .failed::before{
+.list .done::before{
+    content: '\2714';
+    color: green;
+    border: 1px solid green;
+}
+
+.list .failed::before{
     content: '\2717';
     color: red;
-    border: 2px solid red;
-    padding: 3px 7px;
-    border-radius: 50%;
-    font-size: 15px;
-    margin-right: 10px;
+    border: 1px solid red;
 }
 
 .list .plate {
