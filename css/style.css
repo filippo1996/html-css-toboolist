@@ -4,15 +4,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 
 body{
     background-color: lightgray;
+    font-family: 'Roboto', sans-serif;
 }
 
 button{
     cursor: pointer;
+    border: none;
 }
 
 .button-xl{
@@ -39,15 +40,13 @@ hr{
 /* header */
 
 header{
-    height: 100px;
-    line-height: 100px;
+    height: 70px;
     background-color: white;
-    margin-bottom: 50px;
+    padding: 5px 30px;
 }
 
 #logo{
-    height: 80px;
-    margin-left: 20px;
+    height: 100%;
     vertical-align: middle;
 }
 
@@ -62,9 +61,8 @@ header{
 main .container{
     background-color: white;
     width: 70%;
-    margin: auto;
+    margin: 20px auto;
     border-radius: 10px;
-    margin-bottom: 20px;
 }
 
 .container .filter{
